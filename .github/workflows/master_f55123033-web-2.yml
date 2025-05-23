@@ -30,7 +30,7 @@ jobs:
 
       - name: Install npm dependencies and build frontend
         run: 
-          npm Install
+          npm install
           npm run build
 
       - name: Check if composer.json exists
